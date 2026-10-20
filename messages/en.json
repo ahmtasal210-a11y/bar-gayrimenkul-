@@ -86,9 +86,9 @@
     },
     "featured": {
       "eyebrow": "Karaman Merkez Portfolio",
-      "title": "Let’s Find Your Next Property",
-      "subtitle": "Tell us your requirements and preferred neighborhood. Contact us directly for current availability.",
-      "empty": "Our listings are being prepared. Call or message us on WhatsApp for properties currently available."
+      "title": "Featured Properties",
+      "subtitle": "Discover featured properties in Karaman Merkez.",
+      "empty": "Featured properties will appear here soon. Contact us for current availability."
     },
     "services": {
       "eyebrow": "What We Do",
@@ -137,6 +137,12 @@
       "subtitle": "Tell us your property’s neighborhood and details. Let’s discuss the sale or rental process together.",
       "primary": "Discuss Your Property",
       "secondary": "Message on WhatsApp"
+    },
+    "opportunities": {
+      "eyebrow": "Worth Exploring",
+      "title": "Property Opportunities",
+      "subtitle": "Explore the properties we highlight as buying and rental opportunities.",
+      "empty": "Property opportunities will appear here soon. Get in touch to discuss current options."
     }
   },
   "about": {

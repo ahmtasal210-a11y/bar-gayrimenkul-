@@ -36,6 +36,8 @@ export interface Listing {
   images: string[]; // public/ kök yoluna göre, örn. "/images/listings/listing-01.webp"
   features: string[]; // çeviri anahtarları (messages -> listingFeatures.*)
   featured: boolean;
+  /** Fırsat Yerler bölümünde gösterilecek, doğrulanmış fırsat ilanı. */
+  opportunity?: boolean;
   createdAt: string; // ISO tarih — sıralama/sitemap için
 }
 

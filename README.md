@@ -39,7 +39,7 @@ data/neighborhoods.ts paylaşılan 63 kaydı kaynak kimlikleriyle saklar. Listed
 
 Ana sayfada üst görselin hemen altında ilan arama filtreleri ve sonuç alanı bulunur. “İlanları Gör” düğmesi bu bölüme kaydırır. Aynı arama ilanlar sayfasında da kullanılabilir.
 
-Mahalle araması Türkçe karakterleri ve büyük/küçük harfleri tolere eder. Mahalle bağlantıları o mahalleyi içeren WhatsApp mesajı hazırlar. İlan filtresi location.neighborhood alanını kullanır.
+Mahalle listesi ana sayfada ayrı bir bölüm olarak gösterilmez; ilan arama filtresinde kullanılmaya devam eder. İlan filtresi location.neighborhood alanını kullanır. Ana sayfada “Öne Çıkanlar” ve “Fırsat Yerler” bölümleri bulunur. Gerçek ilanlarda featured: true öne çıkanlar, opportunity: true fırsatlar bölümüne seçilmesini sağlar.
 
 ## İlan ve içerik yönetimi
 

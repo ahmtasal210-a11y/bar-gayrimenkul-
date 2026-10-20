@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { buildPageMetadata } from '@/lib/seo';
-import { Neighborhoods } from '@/components/sections/Neighborhoods';
+import { FeaturedListings } from '@/components/sections/FeaturedListings';
 import { Hero } from '@/components/sections/Hero';
 import { ListingsBrowser } from '@/components/listings/ListingsBrowser';
 import { Container } from '@/components/ui/Container';
@@ -29,7 +29,8 @@ export default function HomePage({ params }: { params: { locale: string } }) {
           <ListingsBrowser listings={listings} cities={getCities()} />
         </Container>
       </section>
-      <Neighborhoods />
+      <FeaturedListings />
+      <FeaturedListings variant="opportunities" />
       <ServicesSummary />
       <ProcessSteps />
       <CtaBand />

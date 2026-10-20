@@ -86,9 +86,9 @@
     },
     "featured": {
       "eyebrow": "Karaman Merkez Portföyü",
-      "title": "Aradığınız Mülk İçin Konuşalım",
-      "subtitle": "İhtiyacınızı ve ilgilendiğiniz mahalleyi bize iletin. Güncel portföy bilgisi için doğrudan iletişime geçin.",
-      "empty": "Güncel ilanlarımız hazırlanmaktadır. Satılık ve kiralık seçenekler için bizi arayabilir veya WhatsApp’tan yazabilirsiniz."
+      "title": "Öne Çıkanlar",
+      "subtitle": "Karaman Merkez’de öne çıkan gayrimenkullerimizi keşfedin.",
+      "empty": "Öne çıkan ilanlarımız yakında burada. Güncel portföy için bizimle iletişime geçin."
     },
     "services": {
       "eyebrow": "Ne Yapıyoruz",
@@ -137,6 +137,12 @@
       "subtitle": "Mülkünüzün bulunduğu mahalleyi ve özelliklerini paylaşın. Satış veya kiralama sürecini birlikte değerlendirelim.",
       "primary": "Mülkünüzü Konuşalım",
       "secondary": "WhatsApp'tan Yazın"
+    },
+    "opportunities": {
+      "eyebrow": "Değerlendirmeye Değer",
+      "title": "Fırsat Yerler",
+      "subtitle": "Alım ve kiralama için fırsat olarak sunduğumuz gayrimenkuller.",
+      "empty": "Fırsat ilanlarımız yakında burada. Güncel seçenekler hakkında bilgi almak için bize ulaşın."
     }
   },
   "about": {
