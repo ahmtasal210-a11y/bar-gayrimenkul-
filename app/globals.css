@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply bg-ink-900 text-slate-200 antialiased font-sans;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Seçim rengi */
+  ::selection {
+    @apply bg-accent-500/30 text-white;
+  }
+
+  /* Odak görünürlüğü — erişilebilirlik */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent-400 ring-offset-2 ring-offset-ink-900;
+  }
+
+  /* Özel kaydırma çubuğu */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-600 rounded-full border-2 border-ink-900;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent-700;
+  }
+}
+
+@layer components {
+  /* Cam efekti yüzey */
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-md border border-white/10;
+  }
+
+  /* Bölüm üstü küçük etiket */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-accent-400;
+  }
+
+  /* Gradient metin */
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-white to-accent-300 bg-clip-text text-transparent;
+  }
+
+  /* Bölüm başlığı tipografisi */
+  .heading {
+    @apply font-display font-bold tracking-tight text-white;
+  }
+}
+
+@layer utilities {
+  /* Azaltılmış hareket tercihine saygı */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

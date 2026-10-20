@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "tagline": "Emlakta güvenilir nokta",
+    "shortName": "Barış Gayrimenkul"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "listings": "İlanlar",
+    "contact": "İletişim",
+    "sellCta": "Mülkünü Sat"
+  },
+  "common": {
+    "viewListings": "İlanları Gör",
+    "viewAllListings": "Tüm İlanları Gör",
+    "whatsapp": "WhatsApp'tan Yazın",
+    "whatsappShort": "WhatsApp",
+    "callNow": "Hemen Ara",
+    "contactUs": "Bize Ulaşın",
+    "getValuation": "Mülkünüzü Konuşalım",
+    "readMore": "Detayları Gör",
+    "learnMore": "Daha Fazla",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "backToListings": "İlanlara Dön",
+    "reference": "Referans",
+    "perMonth": "/ ay",
+    "from": "Başlangıç",
+    "loading": "Yükleniyor...",
+    "menu": "Menü",
+    "close": "Kapat",
+    "scrollDown": "Aşağı kaydır"
+  },
+  "transaction": {
+    "sale": "Satılık",
+    "rent": "Kiralık",
+    "all": "Tümü"
+  },
+  "propertyTypes": {
+    "all": "Tüm Tipler",
+    "apartment": "Daire",
+    "villa": "Villa",
+    "office": "Ofis",
+    "land": "Arsa",
+    "shop": "Dükkan"
+  },
+  "listingMeta": {
+    "rooms": "Oda",
+    "bathrooms": "Banyo",
+    "area": "Alan",
+    "floor": "Kat",
+    "buildingAge": "Bina Yaşı",
+    "ageNew": "Sıfır",
+    "yearsOld": "Yaşında"
+  },
+  "listingFeatures": {
+    "seaView": "Deniz Manzarası",
+    "parking": "Kapalı Otopark",
+    "smartHome": "Akıllı Ev Sistemi",
+    "underfloorHeating": "Yerden Isıtma",
+    "elevator": "Asansör",
+    "security": "7/24 Güvenlik",
+    "pool": "Yüzme Havuzu",
+    "garden": "Özel Bahçe",
+    "terrace": "Geniş Teras",
+    "fireplace": "Şömine",
+    "balcony": "Balkon",
+    "naturalGas": "Doğalgaz",
+    "airConditioning": "Klima",
+    "furnished": "Eşyalı",
+    "generator": "Jeneratör",
+    "zoned": "İmarlı",
+    "roadFront": "Yola Cepheli",
+    "highStreet": "Cadde Üzeri",
+    "tenanted": "Kiracılı"
+  },
+  "home": {
+    "hero": {
+      "badge": "KARAMAN MERKEZ · EMLAKTA GÜVENİLİR NOKTA",
+      "title": "Hayallerinizi",
+      "titleAccent": "Gerçekleştiriyoruz",
+      "subtitle": "Karaman Merkez’de gayrimenkul ve danışmanlık. Alım, satım ve kiralama ihtiyaçlarınızda Barış Gayrimenkul ile yeni bir başlangıç yapın.",
+      "primaryCta": "İlanları Gör",
+      "secondaryCta": "WhatsApp'tan Yazın"
+    },
+    "featured": {
+      "eyebrow": "Karaman Merkez Portföyü",
+      "title": "Aradığınız Mülk İçin Konuşalım",
+      "subtitle": "İhtiyacınızı ve ilgilendiğiniz mahalleyi bize iletin. Güncel portföy bilgisi için doğrudan iletişime geçin.",
+      "empty": "Güncel ilanlarımız hazırlanmaktadır. Satılık ve kiralık seçenekler için bizi arayabilir veya WhatsApp’tan yazabilirsiniz."
+    },
+    "services": {
+      "eyebrow": "Ne Yapıyoruz",
+      "title": "Uçtan Uca Gayrimenkul Hizmetleri",
+      "subtitle": "Alım, satım, kiralama ve gayrimenkul danışmanlığı için doğrudan iletişim.",
+      "items": {
+        "sales": {
+          "title": "Satış",
+          "desc": "Mülkünüzü en iyi fiyata, en kısa sürede güvenle satışa sunuyoruz."
+        },
+        "rent": {
+          "title": "Kiralama",
+          "desc": "Güvenilir kiracı eşleştirmesi ve sorunsuz kira süreç yönetimi."
+        },
+        "consulting": {
+          "title": "Gayrimenkul Danışmanlığı",
+          "desc": "Karaman Merkez’de gayrimenkul kararlarınız için birlikte yol alalım."
+        },
+        "buy": {
+          "title": "Alım",
+          "desc": "Bütçenizi ve aradığınız mülkün özelliklerini birlikte değerlendirelim."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Nasıl Çalışıyoruz",
+      "title": "Anahtarınıza 3 Adımda",
+      "subtitle": "Karmaşık görünen süreci sizin için sadeleştiriyoruz.",
+      "steps": {
+        "discover": {
+          "title": "Keşfet",
+          "desc": "İhtiyaçlarınızı dinler, bütçenize uygun en doğru seçenekleri sunarız."
+        },
+        "tour": {
+          "title": "Görüştür",
+          "desc": "Mülkleri birlikte gezer, tüm sorularınızı şeffaflıkla yanıtlarız."
+        },
+        "keys": {
+          "title": "Anahtarı Al",
+          "desc": "Kararınızdan teslim aşamasına kadar süreci birlikte takip edelim."
+        }
+      }
+    },
+    "cta": {
+      "title": "Mülkünüzü mü satmak istiyorsunuz?",
+      "subtitle": "Mülkünüzün bulunduğu mahalleyi ve özelliklerini paylaşın. Satış veya kiralama sürecini birlikte değerlendirelim.",
+      "primary": "Mülkünüzü Konuşalım",
+      "secondary": "WhatsApp'tan Yazın"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Hakkımızda",
+      "title": "Karaman’da Gayrimenkule",
+      "titleAccent": "Yerel Bir Bakış",
+      "subtitle": "Barış Gayrimenkul ile ihtiyacınıza odaklanan, açık iletişime dayalı bir yaklaşım."
+    },
+    "story": {
+      "eyebrow": "Hikayemiz",
+      "title": "Barış Gayrimenkul",
+      "p1": "Barış Gayrimenkul, Karaman Merkez’de gayrimenkul alım, satım ve kiralama ihtiyaçlarınız için iletişime geçebileceğiniz yerel markanızdır. Ev, iş yeri veya yatırım arayışınızı birlikte değerlendirelim.",
+      "p2": "İlgilendiğiniz mahalleyi, bütçenizi ve beklentilerinizi paylaşın. Size uygun seçenekleri konuşalım; süreç boyunca anlaşılır bilgi ve doğrudan iletişimle ilerleyelim."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "desc": "Gayrimenkul yolculuğunun her adımında müşterilerimize dürüst, veriye dayalı ve insan odaklı danışmanlık sunmak; doğru kararı en kısa sürede vermelerini sağlamak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "desc": "Karaman’da gayrimenkul arayanların ve mülk sahiplerinin güvenle iletişim kurabileceği yerel bir marka olmak."
+    },
+    "values": {
+      "eyebrow": "Değerlerimiz",
+      "title": "Bizi Biz Yapan İlkeler",
+      "items": {
+        "trust": {
+          "title": "Güven",
+          "desc": "Şeffaflık ve dürüstlük her işimizin merkezindedir."
+        },
+        "expertise": {
+          "title": "Uzmanlık",
+          "desc": "Piyasayı en iyi bilen, sürekli gelişen bir ekip."
+        },
+        "speed": {
+          "title": "Hız",
+          "desc": "Zamanınıza saygı duyar, süreçleri hızlı yönetiriz."
+        },
+        "care": {
+          "title": "Özen",
+          "desc": "Her detayı sizin menfaatiniz için takip ederiz."
+        }
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Hizmetlerimiz",
+      "title": "Gayrimenkulde",
+      "titleAccent": "Tam Kapsamlı Çözüm",
+      "subtitle": "Karaman Merkez’de alım, satım, kiralama ve gayrimenkul danışmanlığı."
+    },
+    "intro": {
+      "eyebrow": "Neler Sunuyoruz",
+      "title": "Size Özel Hizmetler"
+    },
+    "items": {
+      "buy": {
+        "title": "Gayrimenkul Alımı",
+        "desc": "Ev, iş yeri veya arsa arayışınızı bütçeniz, konum ve kullanım amacınıza göre birlikte değerlendirelim.",
+        "why": "İhtiyacınıza uygun seçenekleri karşılaştırarak karar verin."
+      },
+      "residentialSale": {
+        "title": "Gayrimenkul Satışı",
+        "desc": "Mülkünüzün özelliklerini ve satış beklentilerinizi paylaşın; süreci birlikte planlayalım.",
+        "why": "Açık iletişimle mülkünüz için uygun bir yol haritası oluşturun."
+      },
+      "rental": {
+        "title": "Kiralama",
+        "desc": "Kiralamak veya kiraya vermek istediğiniz mülk için Karaman Merkez’de birlikte seçenekleri konuşalım.",
+        "why": "Konum, bütçe ve beklentilerinizi birlikte netleştirin."
+      },
+      "consulting": {
+        "title": "Gayrimenkul Danışmanlığı",
+        "desc": "Karaman Merkez’deki gayrimenkul planlarınızı, tercih ettiğiniz mahalleleri ve ihtiyaçlarınızı bizimle paylaşın.",
+        "why": "Yerel odağımızla gayrimenkul kararlarınızı birlikte değerlendirelim."
+      }
+    }
+  },
+  "listings": {
+    "hero": {
+      "badge": "Karaman Merkez",
+      "title": "Size Uygun Mülkü",
+      "titleAccent": "Birlikte Bulalım",
+      "subtitle": "Karaman Merkez’de satılık ve kiralık mülk arayışınızı mahalle ve ihtiyaçlarınıza göre şekillendirin."
+    },
+    "filters": {
+      "title": "İlanlarda Ara",
+      "transaction": "İşlem Tipi",
+      "propertyType": "Mülk Tipi",
+      "city": "Konum (İl)",
+      "allCities": "Tüm İller",
+      "rooms": "Oda Sayısı",
+      "allRooms": "Tümü",
+      "minPrice": "Min. Fiyat",
+      "maxPrice": "Maks. Fiyat",
+      "minArea": "Min. m²",
+      "search": "Filtrele",
+      "clear": "Filtreleri Temizle",
+      "resultsCount": "{count} ilan bulundu",
+      "noResults": "Aradığınız kriterlere uygun ilan bulunamadı.",
+      "noResultsHint": "Filtreleri genişletmeyi deneyin veya bizimle WhatsApp'tan iletişime geçin.",
+      "neighborhood": "Mahalle",
+      "allNeighborhoods": "Tüm Mahalleler",
+      "emptyPortfolio": "İlanlarımız hazırlanmaktadır. Güncel portföy için bizimle iletişime geçin."
+    }
+  },
+  "listingDetail": {
+    "overview": "Genel Bilgiler",
+    "description": "Açıklama",
+    "features": "Özellikler",
+    "location": "Konum",
+    "mapPlaceholder": "Konumu Google Maps’te inceleyin.",
+    "gallery": "Galeri",
+    "askWhatsapp": "WhatsApp'tan Sor",
+    "callAgent": "Danışmanı Ara",
+    "interestedTitle": "Bu mülk ilginizi mi çekti?",
+    "interestedSubtitle": "Hemen iletişime geçin, size özel detayları paylaşalım.",
+    "whatsappMessage": "Merhaba, {title} ({ref}) ilanı ile ilgileniyorum. Detaylı bilgi alabilir miyim?",
+    "relatedTitle": "Benzer İlanlar",
+    "priceOnRequest": "Fiyat için arayın"
+  },
+  "contact": {
+    "hero": {
+      "badge": "İletişim",
+      "title": "Bir Mesaj Kadar",
+      "titleAccent": "Yakınınızdayız",
+      "subtitle": "Karaman Merkez’de gayrimenkul ihtiyaçlarınız için bizi arayın, WhatsApp’tan yazın veya e-posta gönderin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "address": "Ofis Adresi",
+      "hours": "Çalışma Saatleri",
+      "weekdays": "Hafta içi",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "followUs": "Bizi Takip Edin",
+      "closed": "Kapalı"
+    },
+    "form": {
+      "title": "Bize Yazın",
+      "subtitle": "Formu doldurun, talebinizi WhatsApp üzerinden anında iletelim.",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Adınız ve soyadınız",
+      "phone": "Telefon",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@eposta.com",
+      "service": "İlgilendiğiniz Hizmet",
+      "servicePlaceholder": "Bir hizmet seçin",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "submit": "WhatsApp ile Gönder",
+      "submitting": "Hazırlanıyor...",
+      "success": "Teşekkürler! Talebiniz WhatsApp üzerinden iletilmek üzere hazırlandı.",
+      "whatsappTemplate": "Merhaba, ben {name}.\nTelefon: {phone}\nE-posta: {email}\nİlgilendiğim hizmet: {service}\nMesaj: {message}",
+      "services": {
+        "buy": "Satın Almak İstiyorum",
+        "sell": "Satmak İstiyorum",
+        "rent": "Kiralamak İstiyorum",
+        "other": "Diğer",
+        "consulting": "Gayrimenkul Danışmanlığı"
+      },
+      "errors": {
+        "nameRequired": "Lütfen adınızı girin.",
+        "nameMin": "Ad en az 2 karakter olmalı.",
+        "phoneRequired": "Lütfen telefon numaranızı girin.",
+        "phoneInvalid": "Geçerli bir telefon numarası girin.",
+        "emailInvalid": "Geçerli bir e-posta adresi girin.",
+        "serviceRequired": "Lütfen bir hizmet seçin.",
+        "messageRequired": "Lütfen mesajınızı yazın.",
+        "messageMin": "Mesaj en az 10 karakter olmalı."
+      }
+    }
+  },
+  "sellCta": {
+    "whatsappMessage": "Merhaba Barış Gayrimenkul, Karaman’daki mülkümü satmak veya kiralamak istiyorum. Görüşebilir miyiz?"
+  },
+  "whatsappFloat": {
+    "label": "WhatsApp'tan yazın",
+    "defaultMessage": "Merhaba, Barış Gayrimenkul ile iletişime geçmek istiyorum."
+  },
+  "footer": {
+    "about": "Karaman Merkez’de satılık ve kiralık gayrimenkuller için yerel danışmanlık. İhtiyacınızı konuşalım, birlikte yol alalım.",
+    "quickLinks": "Hızlı Erişim",
+    "servicesTitle": "Hizmetler",
+    "contactTitle": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "madeWith": "Emlakta güvenilir nokta.",
+    "newsletter": "Fırsatlardan ilk siz haberdar olun"
+  },
+  "seo": {
+    "home": {
+      "title": "Barış Gayrimenkul | Karaman Merkez Satılık ve Kiralık",
+      "description": "Karaman Merkez’de ev, iş yeri ve yatırım arayışınız için Barış Gayrimenkul. Satılık ve kiralık seçenekleri konuşmak için 0534 647 42 70’i arayın."
+    },
+    "about": {
+      "title": "Hakkımızda — Barış Gayrimenkul",
+      "description": "Karaman Merkez’de Barış Gayrimenkul’ü tanıyın. Gayrimenkul ihtiyaçlarınıza yerel bir bakış ve doğrudan iletişim."
+    },
+    "services": {
+      "title": "Hizmetler — Barış Gayrimenkul",
+      "description": "Karaman Merkez’de Barış Gayrimenkul ile gayrimenkul alım, satım, kiralama ve danışmanlık hizmetleri."
+    },
+    "listings": {
+      "title": "İlanlar — Satılık & Kiralık | Barış Gayrimenkul",
+      "description": "Karaman Merkez’de satılık ve kiralık gayrimenkul arayışınızı mahalle, fiyat ve mülk tipine göre şekillendirin. Güncel portföy için bize ulaşın."
+    },
+    "contact": {
+      "title": "İletişim — Barış Gayrimenkul",
+      "description": "Barış Gayrimenkul: Karaman Merkez. Telefon ve WhatsApp: 0534 647 42 70. E-posta: ahmetasal206@gmail.com."
+    }
+  },
+  "neighborhoods": {
+    "eyebrow": "YEREL ODAĞIMIZ",
+    "title": "Karaman Merkez Mahalleleri",
+    "subtitle": "Hangi mahallede arıyorsunuz? Bölgenizi seçin, ihtiyacınızı WhatsApp üzerinden bizimle paylaşın.",
+    "search": "Mahalle ara",
+    "count": "{count} mahalle adı",
+    "noResults": "Bu isimle eşleşen mahalle bulunamadı.",
+    "message": "Merhaba Barış Gayrimenkul, Karaman Merkez {neighborhood} bölgesindeki gayrimenkuller hakkında görüşmek istiyorum.",
+    "note": "Mahalle adları paylaştığınız listeye göre düzenlendi; aynı adlı kayıtlar tek seçenek olarak gösterilir."
+  }
+}

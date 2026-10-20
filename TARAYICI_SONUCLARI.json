@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Turkish home, brand, no fabricated statistics",
+    "58 neighborhood names, Turkish-insensitive search, correct WhatsApp message",
+    "Localized routes and English contact details",
+    "Neighborhood selection, empty portfolio and reset",
+    "Contact validation and WhatsApp handoff without sending a message",
+    "Mobile menu, language switch and horizontal overflow",
+    "Assets, robots, sitemap, manifest and missing listing status"
+  ],
+  "runtimeErrors": []
+}

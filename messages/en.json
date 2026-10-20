@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "tagline": "Your trusted real estate contact",
+    "shortName": "Barış Gayrimenkul Estate"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "listings": "Listings",
+    "contact": "Contact",
+    "sellCta": "Sell Your Property"
+  },
+  "common": {
+    "viewListings": "View Listings",
+    "viewAllListings": "View All Listings",
+    "whatsapp": "Message on WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "callNow": "Call Now",
+    "contactUs": "Contact Us",
+    "getValuation": "Discuss Your Property",
+    "readMore": "View Details",
+    "learnMore": "Learn More",
+    "send": "Send",
+    "sending": "Sending...",
+    "backToListings": "Back to Listings",
+    "reference": "Reference",
+    "perMonth": "/ month",
+    "from": "From",
+    "loading": "Loading...",
+    "menu": "Menu",
+    "close": "Close",
+    "scrollDown": "Scroll down"
+  },
+  "transaction": {
+    "sale": "For Sale",
+    "rent": "For Rent",
+    "all": "All"
+  },
+  "propertyTypes": {
+    "all": "All Types",
+    "apartment": "Apartment",
+    "villa": "Villa",
+    "office": "Office",
+    "land": "Land",
+    "shop": "Shop"
+  },
+  "listingMeta": {
+    "rooms": "Rooms",
+    "bathrooms": "Baths",
+    "area": "Area",
+    "floor": "Floor",
+    "buildingAge": "Building Age",
+    "ageNew": "Brand New",
+    "yearsOld": "yrs old"
+  },
+  "listingFeatures": {
+    "seaView": "Sea View",
+    "parking": "Indoor Parking",
+    "smartHome": "Smart Home",
+    "underfloorHeating": "Underfloor Heating",
+    "elevator": "Elevator",
+    "security": "24/7 Security",
+    "pool": "Swimming Pool",
+    "garden": "Private Garden",
+    "terrace": "Large Terrace",
+    "fireplace": "Fireplace",
+    "balcony": "Balcony",
+    "naturalGas": "Natural Gas",
+    "airConditioning": "Air Conditioning",
+    "furnished": "Furnished",
+    "generator": "Generator",
+    "zoned": "Zoned",
+    "roadFront": "Road Front",
+    "highStreet": "High Street",
+    "tenanted": "Tenanted"
+  },
+  "home": {
+    "hero": {
+      "badge": "KARAMAN MERKEZ · YOUR TRUSTED REAL ESTATE CONTACT",
+      "title": "Bringing Your",
+      "titleAccent": "Dreams to Life",
+      "subtitle": "Property and real estate consultancy in Karaman Merkez. A new beginning with Barış Gayrimenkul for buying, selling and renting.",
+      "primaryCta": "View Listings",
+      "secondaryCta": "Message on WhatsApp"
+    },
+    "featured": {
+      "eyebrow": "Karaman Merkez Portfolio",
+      "title": "Let’s Find Your Next Property",
+      "subtitle": "Tell us your requirements and preferred neighborhood. Contact us directly for current availability.",
+      "empty": "Our listings are being prepared. Call or message us on WhatsApp for properties currently available."
+    },
+    "services": {
+      "eyebrow": "What We Do",
+      "title": "End-to-End Real Estate Services",
+      "subtitle": "Direct support for buying, selling, renting and property consultancy.",
+      "items": {
+        "sales": {
+          "title": "Sales",
+          "desc": "We bring your property to market at the best price, in the shortest time, with confidence."
+        },
+        "rent": {
+          "title": "Rentals",
+          "desc": "Reliable tenant matching and seamless rental process management."
+        },
+        "consulting": {
+          "title": "Property Consultancy",
+          "desc": "Explore your property options in Karaman Merkez with us."
+        },
+        "buy": {
+          "title": "Buying",
+          "desc": "Let’s discuss your budget and what you need from your next property."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "How We Work",
+      "title": "To Your Keys in 3 Steps",
+      "subtitle": "We simplify a process that only looks complex.",
+      "steps": {
+        "discover": {
+          "title": "Discover",
+          "desc": "We listen to your needs and present the best options for your budget."
+        },
+        "tour": {
+          "title": "Tour",
+          "desc": "We visit properties together and answer all your questions transparently."
+        },
+        "keys": {
+          "title": "Get the Keys",
+          "desc": "Follow the process together, from your decision to the handover."
+        }
+      }
+    },
+    "cta": {
+      "title": "Looking to sell your property?",
+      "subtitle": "Tell us your property’s neighborhood and details. Let’s discuss the sale or rental process together.",
+      "primary": "Discuss Your Property",
+      "secondary": "Message on WhatsApp"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "About Us",
+      "title": "Real Estate in Karaman,",
+      "titleAccent": "a Local Perspective",
+      "subtitle": "A clear, personal approach to your property needs with Barış Gayrimenkul."
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "Barış Gayrimenkul",
+      "p1": "Barış Gayrimenkul is your local point of contact for buying, selling and renting property in Karaman Merkez. Let’s discuss your next home, business space or investment.",
+      "p2": "Share your preferred neighborhood, budget and expectations. We’ll discuss suitable options with straightforward information and direct communication."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To offer honest, data-driven and people-first advisory at every step of the real estate journey, helping our clients make the right decision in the shortest time."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be a trusted local point of contact for property seekers and owners in Karaman."
+    },
+    "values": {
+      "eyebrow": "Our Values",
+      "title": "The Principles That Define Us",
+      "items": {
+        "trust": {
+          "title": "Trust",
+          "desc": "Transparency and honesty are at the center of everything we do."
+        },
+        "expertise": {
+          "title": "Expertise",
+          "desc": "A team that knows the market best and keeps growing."
+        },
+        "speed": {
+          "title": "Speed",
+          "desc": "We respect your time and manage processes swiftly."
+        },
+        "care": {
+          "title": "Care",
+          "desc": "We track every detail in your best interest."
+        }
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Our Services",
+      "title": "A Complete Solution",
+      "titleAccent": "in Real Estate",
+      "subtitle": "Buying, selling, renting and property consultancy in Karaman Merkez."
+    },
+    "intro": {
+      "eyebrow": "What We Offer",
+      "title": "Services Tailored to You"
+    },
+    "items": {
+      "buy": {
+        "title": "Buying Property",
+        "desc": "Discuss your home, business space or land requirements based on budget, location and intended use.",
+        "why": "Compare suitable options to make an informed decision."
+      },
+      "residentialSale": {
+        "title": "Selling Property",
+        "desc": "Share your property details and expectations so we can discuss the sales process.",
+        "why": "Build a clear plan for your property through direct communication."
+      },
+      "rental": {
+        "title": "Renting",
+        "desc": "Discuss options for renting a property or letting your own in Karaman Merkez.",
+        "why": "Clarify location, budget and expectations together."
+      },
+      "consulting": {
+        "title": "Property Consultancy",
+        "desc": "Tell us your property plans, preferred neighborhoods and requirements in Karaman Merkez.",
+        "why": "Discuss your property decisions with a local focus."
+      }
+    }
+  },
+  "listings": {
+    "hero": {
+      "badge": "Karaman Merkez",
+      "title": "Let's Find the Right",
+      "titleAccent": "Property Together",
+      "subtitle": "Explore property options in Karaman Merkez by neighborhood and your requirements."
+    },
+    "filters": {
+      "title": "Search Listings",
+      "transaction": "Transaction",
+      "propertyType": "Property Type",
+      "city": "Location (City)",
+      "allCities": "All Cities",
+      "rooms": "Rooms",
+      "allRooms": "All",
+      "minPrice": "Min. Price",
+      "maxPrice": "Max. Price",
+      "minArea": "Min. m²",
+      "search": "Filter",
+      "clear": "Clear Filters",
+      "resultsCount": "{count} listings found",
+      "noResults": "No listings match your criteria.",
+      "noResultsHint": "Try broadening your filters or reach out to us on WhatsApp.",
+      "neighborhood": "Neighborhood",
+      "allNeighborhoods": "All Neighborhoods",
+      "emptyPortfolio": "Our listings are being prepared. Contact us for current availability."
+    }
+  },
+  "listingDetail": {
+    "overview": "Overview",
+    "description": "Description",
+    "features": "Features",
+    "location": "Location",
+    "mapPlaceholder": "View the location on Google Maps.",
+    "gallery": "Gallery",
+    "askWhatsapp": "Ask on WhatsApp",
+    "callAgent": "Call the Agent",
+    "interestedTitle": "Interested in this property?",
+    "interestedSubtitle": "Get in touch now and we'll share the tailored details with you.",
+    "whatsappMessage": "Hello, I'm interested in the listing {title} ({ref}). Could I get more details?",
+    "relatedTitle": "Similar Listings",
+    "priceOnRequest": "Call for price"
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contact",
+      "title": "We're Just a",
+      "titleAccent": "Message Away",
+      "subtitle": "Call, message us on WhatsApp or email us about your property needs in Karaman Merkez."
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Office Address",
+      "hours": "Working Hours",
+      "weekdays": "Weekdays",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "followUs": "Follow Us",
+      "closed": "Closed"
+    },
+    "form": {
+      "title": "Write to Us",
+      "subtitle": "Fill in the form and we'll deliver your request instantly via WhatsApp.",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "phone": "Phone",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "service": "Service of Interest",
+      "servicePlaceholder": "Select a service",
+      "message": "Your Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send via WhatsApp",
+      "submitting": "Preparing...",
+      "success": "Thank you! Your request has been prepared to be sent via WhatsApp.",
+      "whatsappTemplate": "Hello, I'm {name}.\nPhone: {phone}\nEmail: {email}\nService of interest: {service}\nMessage: {message}",
+      "services": {
+        "buy": "I Want to Buy",
+        "sell": "I Want to Sell",
+        "rent": "I Want to Rent",
+        "other": "Other",
+        "consulting": "Property Consultancy"
+      },
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "nameMin": "Name must be at least 2 characters.",
+        "phoneRequired": "Please enter your phone number.",
+        "phoneInvalid": "Please enter a valid phone number.",
+        "emailInvalid": "Please enter a valid email address.",
+        "serviceRequired": "Please select a service.",
+        "messageRequired": "Please write your message.",
+        "messageMin": "Message must be at least 10 characters."
+      }
+    }
+  },
+  "sellCta": {
+    "whatsappMessage": "Hello Barış Gayrimenkul, I would like to sell or rent out my property in Karaman. Can we discuss it?"
+  },
+  "whatsappFloat": {
+    "label": "Message on WhatsApp",
+    "defaultMessage": "Hello, I'd like to get in touch with Barış Gayrimenkul Estate."
+  },
+  "footer": {
+    "about": "Local property advice for buying, selling and renting in Karaman Merkez. Let’s discuss what you need.",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "madeWith": "Your trusted real estate contact.",
+    "newsletter": "Be the first to hear about opportunities"
+  },
+  "seo": {
+    "home": {
+      "title": "Barış Gayrimenkul | Real Estate in Karaman Merkez",
+      "description": "Buying, selling or renting in Karaman Merkez? Contact Barış Gayrimenkul on +90 534 647 42 70 to discuss your property needs."
+    },
+    "about": {
+      "title": "About — Barış Gayrimenkul Estate",
+      "description": "Meet Barış Gayrimenkul: a local perspective and direct communication for your property needs in Karaman Merkez."
+    },
+    "services": {
+      "title": "Services — Barış Gayrimenkul Estate",
+      "description": "Buying, selling, renting and property consultancy with Barış Gayrimenkul in Karaman Merkez."
+    },
+    "listings": {
+      "title": "Listings — For Sale & Rent | Barış Gayrimenkul Estate",
+      "description": "Find property in Karaman Merkez by neighborhood, price and type. Contact us for current listings."
+    },
+    "contact": {
+      "title": "Contact — Barış Gayrimenkul Estate",
+      "description": "Barış Gayrimenkul, Karaman Merkez. Phone and WhatsApp: +90 534 647 42 70. Email: ahmetasal206@gmail.com."
+    }
+  },
+  "neighborhoods": {
+    "eyebrow": "OUR LOCAL FOCUS",
+    "title": "Neighborhoods of Karaman Merkez",
+    "subtitle": "Where would you like to live or invest? Choose a neighborhood and tell us what you need on WhatsApp.",
+    "search": "Search neighborhoods",
+    "count": "{count} neighborhood names",
+    "noResults": "No matching neighborhood found.",
+    "message": "Hello Barış Gayrimenkul, I would like to discuss properties in {neighborhood}, Karaman Merkez.",
+    "note": "Neighborhood names follow the supplied list; records sharing a name are shown as one option."
+  }
+}
