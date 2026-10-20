@@ -9,6 +9,7 @@ import { Reveal } from '@/components/ui/Reveal';
 import { SpotlightCard } from '@/components/ui/SpotlightCard';
 import { SafeImage } from '@/components/ui/SafeImage';
 import { CtaBand } from '@/components/sections/CtaBand';
+import { AdvisorProfile } from '@/components/sections/AdvisorProfile';
 
 export async function generateMetadata({
   params,
@@ -92,6 +93,8 @@ export default async function AboutPage({ params }: { params: { locale: string }
           </Reveal>
         </div>
       </Section>
+
+      <AdvisorProfile />
 
       {/* Değerler */}
       <Section className="bg-ink-950/40" glow>

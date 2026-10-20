@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { buildPageMetadata } from '@/lib/seo';
 import { FeaturedListings } from '@/components/sections/FeaturedListings';
 import { Hero } from '@/components/sections/Hero';
+import { AdvisorProfile } from '@/components/sections/AdvisorProfile';
 import { ListingsBrowser } from '@/components/listings/ListingsBrowser';
 import { Container } from '@/components/ui/Container';
 import { listings, getCities } from '@/data/listings';
@@ -32,6 +33,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       <FeaturedListings />
       <FeaturedListings variant="opportunities" />
       <ServicesSummary />
+      <AdvisorProfile />
       <ProcessSteps />
       <CtaBand />
     </>

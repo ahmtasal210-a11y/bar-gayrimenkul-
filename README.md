@@ -41,6 +41,10 @@ Ana sayfada üst görselin hemen altında ilan arama filtreleri ve sonuç alanı
 
 Mahalle listesi ana sayfada ayrı bir bölüm olarak gösterilmez; ilan arama filtresinde kullanılmaya devam eder. İlan filtresi location.neighborhood alanını kullanır. Ana sayfada “Öne Çıkanlar” ve “Fırsat Yerler” bölümleri bulunur. Gerçek ilanlarda featured: true öne çıkanlar, opportunity: true fırsatlar bölümüne seçilmesini sağlar.
 
+## Gayrimenkul danışmanı
+
+Ahmet Asal, ana sayfa ve Hakkımızda sayfasında “Gayrimenkul Danışmanı” unvanıyla yer alır. Profil görseli gönderilen fotoğraftan profil kullanımına uygun hazırlanmıştır. Bilgileri lib/config.ts içindeki advisor alanından, metinleri iki dilin advisor anahtarından düzenleyebilirsiniz.
+
 ## İlan ve içerik yönetimi
 
 Gerçek ilan verisi verilmediği için data/listings.ts boş portföyle başlar. Önceki markanın örnek ilanları, çalışan isimleri, müşteri yorumları ve başarı sayaçları çıkarıldı. Sıfır sonuç görünümü doğrudan iletişime yönlendirir.

@@ -368,5 +368,14 @@
     "noResults": "No matching neighborhood found.",
     "message": "Hello Barış Gayrimenkul, I would like to discuss properties in {neighborhood}, Karaman Merkez.",
     "note": "Neighborhood names follow the supplied list; records sharing a name are shown as one option."
+  },
+  "advisor": {
+    "eyebrow": "Your Direct Property Contact",
+    "role": "Real Estate Consultant",
+    "photoAlt": "{name} — Real Estate Consultant",
+    "description": "Speak directly with Ahmet Asal about buying, selling or renting in Karaman Merkez. Let’s discuss your preferred property, neighborhood and requirements.",
+    "slogan": "Your trusted real estate contact.",
+    "whatsapp": "Message Ahmet Asal",
+    "message": "Hello Ahmet Asal, I would like information about buying, selling or renting property in Karaman Merkez."
   }
 }

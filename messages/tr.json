@@ -368,5 +368,14 @@
     "noResults": "Bu isimle eşleşen mahalle bulunamadı.",
     "message": "Merhaba Barış Gayrimenkul, Karaman Merkez {neighborhood} bölgesindeki gayrimenkuller hakkında görüşmek istiyorum.",
     "note": "Mahalle adları paylaştığınız listeye göre düzenlendi; aynı adlı kayıtlar tek seçenek olarak gösterilir."
+  },
+  "advisor": {
+    "eyebrow": "Gayrimenkulde Doğrudan İletişim",
+    "role": "Gayrimenkul Danışmanı",
+    "photoAlt": "{name} — Gayrimenkul Danışmanı",
+    "description": "Karaman Merkez’de alım, satım ve kiralama ihtiyaçlarınız için Ahmet Asal ile doğrudan görüşün. Aradığınız mülkü, tercih ettiğiniz mahalleyi ve beklentilerinizi birlikte değerlendirelim.",
+    "slogan": "Emlakta güvenilir nokta.",
+    "whatsapp": "Ahmet Asal’a Yazın",
+    "message": "Merhaba Ahmet Bey, Karaman Merkez’de gayrimenkul alım, satım veya kiralama konusunda bilgi almak istiyorum."
   }
 }

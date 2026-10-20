@@ -13,6 +13,7 @@ export const siteConfig = {
   address: { street: 'Fenari Mahallesi, Şht. Zafer Ak Cd. 7/C', district: 'Merkez', city: 'Karaman', zip: '70100', country: 'TR', full: 'Fenari Mahallesi, Şht. Zafer Ak Cd. 7/C, 70100 Karaman Merkez / Karaman' },
   mapsUrl: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x14d98d581f1b18f3:0xb26413d7bedfd314',
   slogan: 'Emlakta güvenilir nokta',
+  advisor: { name: 'Ahmet Asal', photo: '/images/team/ahmet-asal.png' },
   hours: { weekdays: '09:00–19:00', saturday: '09:00–18:35', sunday: 'Kapalı' },
   social: { instagram: '', facebook: '', linkedin: '', youtube: '', x: '' },
   ogImage: '/social/baris-monochrome.png',
