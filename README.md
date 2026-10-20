@@ -37,6 +37,8 @@ Gerçek alan adınız belli olduğunda .env.local dosyasına NEXT_PUBLIC_SITE_UR
 
 data/neighborhoods.ts paylaşılan 63 kaydı kaynak kimlikleriyle saklar. Listede 58 farklı mahalle adı vardır. Atatürk, Bahçelievler, Cumhuriyet, Fatih ve Hürriyet adları iki farklı kaynak kimliğiyle verilmiştir. Kimlikler korunur; aynı adın aynı idari bölgeyi gösterdiği varsayılmamıştır. Arayüz isim bazında bir kez gösterir. Liste resmi idari kayıtla bağımsız doğrulanmış değildir; başlıktaki 64 sayısı gerçek sayı kabul edilmemiştir.
 
+Ana sayfada üst görselin hemen altında ilan arama filtreleri ve sonuç alanı bulunur. “İlanları Gör” düğmesi bu bölüme kaydırır. Aynı arama ilanlar sayfasında da kullanılabilir.
+
 Mahalle araması Türkçe karakterleri ve büyük/küçük harfleri tolere eder. Mahalle bağlantıları o mahalleyi içeren WhatsApp mesajı hazırlar. İlan filtresi location.neighborhood alanını kullanır.
 
 ## İlan ve içerik yönetimi

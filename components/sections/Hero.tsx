@@ -71,7 +71,7 @@ export function Hero() {
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <Link href="/listings" className={buttonVariants({ variant: 'primary', size: 'lg' })}>
+            <Link href={{ pathname: '/', hash: 'ilan-arama' }} className={buttonVariants({ variant: 'primary', size: 'lg' })}>
               {t('primaryCta')}
               <ArrowRight className="h-5 w-5" aria-hidden />
             </Link>
