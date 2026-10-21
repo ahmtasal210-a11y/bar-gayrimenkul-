@@ -52,7 +52,9 @@
     "floor": "Kat",
     "buildingAge": "Bina Yaşı",
     "ageNew": "Sıfır",
-    "yearsOld": "Yaşında"
+    "yearsOld": "Yaşında",
+    "netArea": "Net Alan",
+    "net": "net"
   },
   "listingFeatures": {
     "seaView": "Deniz Manzarası",
@@ -73,7 +75,11 @@
     "zoned": "İmarlı",
     "roadFront": "Yola Cepheli",
     "highStreet": "Cadde Üzeri",
-    "tenanted": "Kiracılı"
+    "tenanted": "Kiracılı",
+    "southEastFacing": "Güney-Doğu Cephe",
+    "renovated": "Komple Yapılı",
+    "exteriorInsulation": "Dış Cephe Yalıtımı",
+    "newRoof": "Yeni Yapılmış Çatı"
   },
   "home": {
     "hero": {
@@ -264,7 +270,8 @@
     "interestedSubtitle": "Hemen iletişime geçin, size özel detayları paylaşalım.",
     "whatsappMessage": "Merhaba, {title} ({ref}) ilanı ile ilgileniyorum. Detaylı bilgi alabilir miyim?",
     "relatedTitle": "Benzer İlanlar",
-    "priceOnRequest": "Fiyat için arayın"
+    "priceOnRequest": "Fiyat için arayın",
+    "photosPending": "Bu ilanın fotoğrafları henüz eklenmedi."
   },
   "contact": {
     "hero": {

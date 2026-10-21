@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, Expand } from 'lucide-react';
 import { SafeImage } from '@/components/ui/SafeImage';
 import { cn } from '@/lib/utils';
+import { ListingPhotoPlaceholder } from './ListingPhotoPlaceholder';
 
 /** İlan detay galerisi — ana görsel + küçük resimler + lightbox. */
 export function ListingGallery({ images, alt }: { images: string[]; alt: string }) {
@@ -13,6 +14,10 @@ export function ListingGallery({ images, alt }: { images: string[]; alt: string 
 
   const go = (dir: number) =>
     setActive((prev) => (prev + dir + images.length) % images.length);
+
+  if (images.length === 0) {
+    return <div className="aspect-[16/10] overflow-hidden rounded-2xl border border-white/10"><ListingPhotoPlaceholder /></div>;
+  }
 
   return (
     <>

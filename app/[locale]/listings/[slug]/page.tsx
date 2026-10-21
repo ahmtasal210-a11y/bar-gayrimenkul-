@@ -84,12 +84,12 @@ export default async function ListingDetailPage({
   // Özellik özet satırları.
   const specs = [
     listing.rooms !== '—' && { Icon: BedDouble, label: t('listingMeta.rooms'), value: listing.rooms },
-    listing.bathrooms > 0 && {
+    (listing.bathrooms ?? 0) > 0 && {
       Icon: Bath,
       label: t('listingMeta.bathrooms'),
       value: String(listing.bathrooms),
     },
-    { Icon: Maximize, label: t('listingMeta.area'), value: formatArea(listing.area, locale) },
+    { Icon: Maximize, label: t(listing.areaType === 'net' ? 'listingMeta.netArea' : 'listingMeta.area'), value: formatArea(listing.area, locale) },
     listing.floor && { Icon: Layers, label: t('listingMeta.floor'), value: listing.floor },
     listing.buildingAge !== undefined && {
       Icon: CalendarClock,
@@ -112,7 +112,7 @@ export default async function ListingDetailPage({
   const related = listings.filter((l) => l.id !== listing.id && l.type === listing.type).slice(0, 3);
 
   const mapsQuery = encodeURIComponent(
-    `${listing.location.district}, ${listing.location.city}, Türkiye`,
+    [listing.location.neighborhood, listing.location.district, listing.location.city, 'Türkiye'].filter(Boolean).join(', '),
   );
 
   return (
@@ -149,7 +149,7 @@ export default async function ListingDetailPage({
               </h1>
               <p className="mt-3 flex items-center gap-1.5 text-slate-400">
                 <MapPin className="h-4 w-4 text-accent-400" aria-hidden />
-                {listing.location.district}, {listing.location.city}
+                {[listing.location.neighborhood, listing.location.district, listing.location.city].filter(Boolean).join(', ')}
               </p>
             </div>
             <div className="shrink-0">

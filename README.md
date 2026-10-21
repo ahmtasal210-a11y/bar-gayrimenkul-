@@ -47,7 +47,7 @@ Ahmet Asal, ana sayfa ve Hakkımızda sayfasında “Gayrimenkul Danışmanı”
 
 ## İlan ve içerik yönetimi
 
-Gerçek ilan verisi verilmediği için data/listings.ts boş portföyle başlar. Önceki markanın örnek ilanları, çalışan isimleri, müşteri yorumları ve başarı sayaçları çıkarıldı. Sıfır sonuç görünümü doğrudan iletişime yönlendirir.
+Hamidiye Mahallesi’ndeki 105 m² net, 2+1 ve 2.490.000 TL fiyatlı daire aktif ilan listesinde ve ana sayfanın Öne Çıkanlar bölümündedir. Verilmeyen banyo sayısı ve bina yaşı gösterilmez. Özgün fotoğraf dosyaları beklenirken görsel alanında “Bu ilanın fotoğrafları henüz eklenmedi” yazısı görünür. Önceki markanın örnek ilanları, müşteri yorumları ve başarı sayaçları kullanılmaz.
 
 Doğrulanmış ilanları Listing tipine uygun ekleyin; gerçek fiyat, konum ve kullanım hakkınız bulunan fotoğrafları kullanın. Konum biçimi: { city: 'Karaman', district: 'Merkez', neighborhood: 'Abbas Mahallesi' }. Mahalle adını listedeki biçimiyle yazın. Galeri için en az bir görsel ekleyin. İlanlar eklenince kartlar, detay sayfaları ve sitemap yeniden derleme sırasında oluşur.
 
@@ -58,3 +58,9 @@ Doğrulanmış ilanları Listing tipine uygun ekleyin; gerçek fiyat, konum ve k
 Kaynak bağımlılık taraması 13 etkilenen paket bildirdi; Next.js kritik olarak işaretlenmişti. Kişiselleştirmede framework ana sürümleri değiştirilmedi. İnternete açık yayından önce güvenli sürümlere geçiş ayrı bir uyumluluk çalışmasıyla tamamlanmalı. İşlevsel kontroller bütün güvenlik açıklarının giderildiği anlamına gelmez.
 
 Kaynak ZIP'teki tutarsız lockfile bu kopyada güncellendi; kilitli kurulum tekrar doğrulanır. Tarayıcı kontrolleri gerçek Chromium üzerinden yürütülür; sonuçlar teslim raporunda belirtilir.
+
+## Netlify
+
+netlify.toml üretim derlemesini npm run build, çıktı dizinini .next ve Node sürümünü 24 olarak ayarlar. Netlify otomatik Next.js adaptörünü kullanmalıdır; bu uygulama basit bir statik klasör yüklemesi değildir. Üretim alan adı amazing-marshmallow-997f18.netlify.app olarak ayarlanmıştır.
+
+GitHub reposunun main dalını Netlify projesine bağlayın ve son commit için yeni dağıtım çalıştırın. GitHub'a kod göndermek tek başına Netlify'da yeni sürümün yayımlandığını kanıtlamaz. Kontrolde Netlify adresi 401 ve oturum açma yönlendirmesi döndürdü; dışarıdan yayın sürümü doğrulanamadı. Koruma ayarları değiştirilmedi.

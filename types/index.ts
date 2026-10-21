@@ -27,9 +27,10 @@ export interface Listing {
   /** Kiralık ilanlar için periyot. Satılıkta kullanılmaz. */
   rentPeriod?: 'monthly';
   location: ListingLocation;
-  area: number; // brüt m²
+  area: number; // m²; ölçüm türü areaType ile belirtilir
+  areaType?: 'net' | 'gross';
   rooms: string; // örn. "3+1", "Stüdyo", "—"
-  bathrooms: number;
+  bathrooms?: number; // yalnızca doğrulandığında belirtilir
   /** Bina yaşı (0 = sıfır bina). */
   buildingAge?: number;
   floor?: string; // örn. "4 / 8"

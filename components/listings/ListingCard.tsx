@@ -2,6 +2,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { BedDouble, Bath, Maximize, MapPin } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { SafeImage } from '@/components/ui/SafeImage';
+import { ListingPhotoPlaceholder } from './ListingPhotoPlaceholder';
 import { Badge } from '@/components/ui/Badge';
 import { formatPrice, formatArea } from '@/lib/utils';
 import type { Listing } from '@/types';
@@ -21,14 +22,14 @@ export function ListingCard({ listing, priority = false }: { listing: Listing; p
     >
       {/* Görsel */}
       <div className="relative aspect-[4/3] overflow-hidden">
-        <SafeImage
+        {listing.images.length > 0 ? <SafeImage
           src={listing.images[0]}
           alt={listing.title[locale]}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           priority={priority}
           className="object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+        /> : <ListingPhotoPlaceholder />}
         <div className="absolute inset-0 bg-gradient-to-t from-ink-950/80 via-transparent to-transparent" />
 
         {/* Rozetler */}
@@ -53,7 +54,7 @@ export function ListingCard({ listing, priority = false }: { listing: Listing; p
         </h3>
         <p className="mt-2 flex items-center gap-1.5 text-sm text-slate-400">
           <MapPin className="h-4 w-4 text-accent-400" aria-hidden />
-          {listing.location.district}, {listing.location.city}
+          {[listing.location.neighborhood, listing.location.district, listing.location.city].filter(Boolean).join(', ')}
         </p>
 
         {/* Özellik ikonları */}
@@ -64,15 +65,15 @@ export function ListingCard({ listing, priority = false }: { listing: Listing; p
               {listing.rooms}
             </span>
           )}
-          {listing.bathrooms > 0 && (
+          {(listing.bathrooms ?? 0) > 0 && (
             <span className="flex items-center gap-1.5" title={t('listingMeta.bathrooms')}>
               <Bath className="h-4 w-4 text-slate-500" aria-hidden />
               {listing.bathrooms}
             </span>
           )}
-          <span className="flex items-center gap-1.5" title={t('listingMeta.area')}>
+          <span className="flex items-center gap-1.5" title={t(listing.areaType === 'net' ? 'listingMeta.netArea' : 'listingMeta.area')}>
             <Maximize className="h-4 w-4 text-slate-500" aria-hidden />
-            {formatArea(listing.area, locale)}
+            {formatArea(listing.area, locale)}{listing.areaType === 'net' && ` ${t('listingMeta.net')}`}
           </span>
         </div>
       </div>

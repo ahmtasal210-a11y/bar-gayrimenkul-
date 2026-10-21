@@ -72,9 +72,9 @@ export function ListingJsonLd({ listing, locale }: { listing: Listing; locale: '
       seller: { '@id': `${siteConfig.url}/#organization` },
     },
     additionalProperty: [
-      { '@type': 'PropertyValue', name: 'area', value: listing.area, unitCode: 'MTK' },
+      { '@type': 'PropertyValue', name: listing.areaType === 'net' ? 'netArea' : 'area', value: listing.area, unitCode: 'MTK' },
       { '@type': 'PropertyValue', name: 'rooms', value: listing.rooms },
-      { '@type': 'PropertyValue', name: 'bathrooms', value: listing.bathrooms },
+      ...(listing.bathrooms !== undefined ? [{ '@type': 'PropertyValue', name: 'bathrooms', value: listing.bathrooms }] : []),
     ],
   };
 

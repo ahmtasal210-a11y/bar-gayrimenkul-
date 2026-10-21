@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_original_photo_files",
+  "status": "active_listing_original_photos_pending",
   "reference": "BRS-001",
   "title": "Hamidiye’de 105 m² Net, Komple Yapılı 2+1 | Güney-Doğu Cephe",
   "priceTRY": 2490000,
@@ -99,5 +99,5 @@
     "occupancy",
     "exactAddress"
   ],
-  "notes": "Draft only. Not imported into the active site listings. Use original property photographs, not generated reconstructions."
+  "notes": "Listing is active in data/listings.ts with no photos. The original photo sequence is retained here until original files are supplied."
 }

@@ -52,7 +52,9 @@
     "floor": "Floor",
     "buildingAge": "Building Age",
     "ageNew": "Brand New",
-    "yearsOld": "yrs old"
+    "yearsOld": "yrs old",
+    "netArea": "Net Floor Area",
+    "net": "net"
   },
   "listingFeatures": {
     "seaView": "Sea View",
@@ -73,7 +75,11 @@
     "zoned": "Zoned",
     "roadFront": "Road Front",
     "highStreet": "High Street",
-    "tenanted": "Tenanted"
+    "tenanted": "Tenanted",
+    "southEastFacing": "South-East Facing",
+    "renovated": "Renovated Interior",
+    "exteriorInsulation": "Exterior Insulation",
+    "newRoof": "Recently Renewed Roof"
   },
   "home": {
     "hero": {
@@ -264,7 +270,8 @@
     "interestedSubtitle": "Get in touch now and we'll share the tailored details with you.",
     "whatsappMessage": "Hello, I'm interested in the listing {title} ({ref}). Could I get more details?",
     "relatedTitle": "Similar Listings",
-    "priceOnRequest": "Call for price"
+    "priceOnRequest": "Call for price",
+    "photosPending": "Photos have not yet been added to this listing."
   },
   "contact": {
     "hero": {
