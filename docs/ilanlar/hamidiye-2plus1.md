@@ -2,7 +2,7 @@
 
 ## Yayın durumu
 
-İlan metni ve fotoğraf sıralaması hazırlandı. Sohbetteki 11 fotoğraf görülebiliyor ancak özgün dosyaları çalışma alanına aktarılabilir dosya ekleri olarak sunulmadı. Mekânı yanlış yansıtmamak için fotoğraflar yapay zekâyla yeniden üretilmedi. Gerçek fotoğraflar dosya veya ZIP olarak alındıktan sonra bu sırayla siteye eklenecek. İlan, fotoğraflar beklenirken metin ve fiyat bilgileriyle aktif ilan listesine bağlandı. Fotoğraf alanında eksik olduğu açıkça gösterilir.
+RAR arşivindeki 15 özgün JPEG dosyası açıldı, içerikleri incelendi ve değiştirilmeden public/images/listings/hamidiye-2plus1 altına kopyalandı. Fotoğraflar aktif ilana ve kapak görseline bağlandı. Her dosyanın kaynak adı ve SHA256 değeri hamidiye-fotograf-sirasi.json içinde saklanır. Yerel uygulama ve GitHub kaydı, Netlify'daki yeniden dağıtımdan ayrı işlemlerdir.
 
 ## Başlık
 
@@ -39,21 +39,25 @@ Detayları Ahmet Asal’dan öğrenin; daireyi görmek için randevu oluştural�
 
 ## Fotoğraf sırası
 
-Numaralar, kullanıcının mesajındaki orijinal gönderim sırasıdır. Bunlar çalışma alanındaki mevcut dosya adları değildir.
+Arşivde 15 fotoğraf bulunur. Sıra, salondan başlayıp mutfak, balkon ve odalarla devam eder; benzer açılar ve işlevsel alanlar sona bırakılır. Arşivdeki özgün dosyalar aynen korunur.
 
-| İlan sırası | Gönderilen fotoğraf | İçerik |
+| İlan sırası | İçerik | Kaynak dosya |
 | --- | --- | --- |
-| 1 | 1. fotoğraf | Aydınlık salon; kapak görseli |
-| 2 | 10. fotoğraf | Mutfak genel görünümü |
-| 3 | 4. fotoğraf | Balkon ve çevre görünümü |
-| 4 | 7. fotoğraf | Oda genel görünümü |
-| 5 | 2. fotoğraf | Oda görünümü; farklı açı |
-| 6 | 8. fotoğraf | Mutfak, kombi ve balkon kapısı |
-| 7 | 3. fotoğraf | Banyo ve duş alanı |
-| 8 | 6. fotoğraf | Koridor genel görünümü |
-| 9 | 11. fotoğraf | Giriş ve antre |
-| 10 | 9. fotoğraf | Lavabo alanı |
-| 11 | 5. fotoğraf | Ayrı WC |
+| 1 | Aydınlık salon | photo_5863973223974768663_x.jpg |
+| 2 | Mutfak genel görünümü | photo_5863973223974768674_y.jpg |
+| 3 | Balkon ve çevre görünümü | photo_5863973223974768672_y.jpg |
+| 4 | Oda genel görünümü | photo_5863973223974768669_y.jpg |
+| 5 | Pencereli oda görünümü | photo_5863973223974768671_y.jpg |
+| 6 | Oda görünümü, farklı açı | photo_5863973223974768664_y.jpg |
+| 7 | Balkon, diğer açı | photo_5863973223974768666_y.jpg |
+| 8 | Mutfak dolapları ve tezgâh | photo_5863973223974768676_y.jpg |
+| 9 | Mutfak, kombi ve balkon kapısı | photo_5863973223974768670_y.jpg |
+| 10 | Banyo ve duş alanı | photo_5863973223974768665_y.jpg |
+| 11 | Koridor genel görünümü | photo_5863973223974768668_y.jpg |
+| 12 | Giriş ve antre | photo_5863973223974768677_y.jpg |
+| 13 | Daire giriş kapısı | photo_5863973223974768675_y.jpg |
+| 14 | Lavabo alanı | photo_5863973223974768673_y.jpg |
+| 15 | Ayrı WC | photo_5863973223974768667_y.jpg |
 
 ## Sunum mantığı
 
@@ -65,6 +69,6 @@ Asansör, bina yaşı, toplam banyo sayısı, tapu niteliği, krediye uygunluk, 
 
 ## Aktif ilan kontrolü
 
-Hamidiye ilanı data/listings.ts içinden ana sayfa arama sonuçları, Öne Çıkanlar ve iki dilde ilan detayına bağlandı. Üretim derlemesi, gerçek mahalle filtrelemesi, fiyat/net alan/kat bilgileri ve mobil görünüm kontrol edildi. Fotoğraf yokken galeri açık bilgilendirme gösterir; uydurma banyo sayısı eklenmedi.
+Hamidiye ilanı data/listings.ts içinden ana sayfa arama sonuçları, Öne Çıkanlar ve iki dilde ilan detayına bağlandı. Üretim derlemesi, gerçek mahalle filtrelemesi, fiyat/net alan/kat bilgileri ve mobil görünüm kontrol edildi. 15 fotoğrafın tamamı galeriye bağlandı; uydurma banyo sayısı eklenmedi.
 
 Kullanıcı Netlify’a dosyaları elle yüklediğini belirtti; GitHub push işlemleri bu yayını kendiliğinden güncellemez. netlify.toml eklendi. Netlify projesinin bu deponun main dalına bağlanması ve yeni dağıtım çalıştırılması gerekir. Netlify yönetim erişimi bu oturumda mevcut değildir. Dışarıdan yapılan istek Netlify oturum açma koruması nedeniyle 401 döndürdü; internetteki sürüm doğrulanmış değildir.

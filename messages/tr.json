@@ -271,7 +271,12 @@
     "whatsappMessage": "Merhaba, {title} ({ref}) ilanı ile ilgileniyorum. Detaylı bilgi alabilir miyim?",
     "relatedTitle": "Benzer İlanlar",
     "priceOnRequest": "Fiyat için arayın",
-    "photosPending": "Bu ilanın fotoğrafları henüz eklenmedi."
+    "photosPending": "Bu ilanın fotoğrafları henüz eklenmedi.",
+    "galleryOpen": "Galeriyi büyüt",
+    "galleryClose": "Kapat",
+    "galleryPrevious": "Önceki fotoğraf",
+    "galleryNext": "Sonraki fotoğraf",
+    "galleryThumbnail": "Fotoğraf {number}"
   },
   "contact": {
     "hero": {

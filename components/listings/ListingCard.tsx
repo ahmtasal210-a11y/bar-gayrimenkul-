@@ -24,7 +24,7 @@ export function ListingCard({ listing, priority = false }: { listing: Listing; p
       <div className="relative aspect-[4/3] overflow-hidden">
         {listing.images.length > 0 ? <SafeImage
           src={listing.images[0]}
-          alt={listing.title[locale]}
+          alt={listing.imageCaptions?.[locale]?.[0] ? `${listing.title[locale]} — ${listing.imageCaptions[locale][0]}` : listing.title[locale]}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           priority={priority}

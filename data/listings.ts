@@ -1,6 +1,6 @@
 import type { Listing } from '@/types';
 
-// User-supplied listing details. Original photo files are still pending.
+// User-supplied listing details and original photographs from the uploaded RAR archive.
 export const listings: Listing[] = [
   {
     id: 'BRS-001',
@@ -22,7 +22,59 @@ export const listings: Listing[] = [
     areaType: 'net',
     rooms: '2+1',
     floor: '4 / 4',
-    images: [],
+    images: [
+      "/images/listings/hamidiye-2plus1/01-salon.jpg",
+      "/images/listings/hamidiye-2plus1/02-mutfak-genel.jpg",
+      "/images/listings/hamidiye-2plus1/03-balkon-cevre.jpg",
+      "/images/listings/hamidiye-2plus1/04-oda-genel.jpg",
+      "/images/listings/hamidiye-2plus1/05-oda-pencere.jpg",
+      "/images/listings/hamidiye-2plus1/06-oda-farkli-aci.jpg",
+      "/images/listings/hamidiye-2plus1/07-balkon-diger-aci.jpg",
+      "/images/listings/hamidiye-2plus1/08-mutfak-detay.jpg",
+      "/images/listings/hamidiye-2plus1/09-mutfak-kombi.jpg",
+      "/images/listings/hamidiye-2plus1/10-banyo.jpg",
+      "/images/listings/hamidiye-2plus1/11-koridor.jpg",
+      "/images/listings/hamidiye-2plus1/12-antre.jpg",
+      "/images/listings/hamidiye-2plus1/13-giris-kapisi.jpg",
+      "/images/listings/hamidiye-2plus1/14-lavabo.jpg",
+      "/images/listings/hamidiye-2plus1/15-wc.jpg"
+],
+    imageCaptions: {
+      "tr": [
+            "Aydınlık salon",
+            "Mutfak genel görünümü",
+            "Balkon ve çevre görünümü",
+            "Oda genel görünümü",
+            "Pencereli oda görünümü",
+            "Oda görünümü, farklı açı",
+            "Balkon, diğer açı",
+            "Mutfak dolapları ve tezgâh",
+            "Mutfak, kombi ve balkon kapısı",
+            "Banyo ve duş alanı",
+            "Koridor genel görünümü",
+            "Giriş ve antre",
+            "Daire giriş kapısı",
+            "Lavabo alanı",
+            "Ayrı WC"
+      ],
+      "en": [
+            "Bright living room",
+            "Kitchen overview",
+            "Balcony and surroundings",
+            "Room overview",
+            "Room with window",
+            "Room from another angle",
+            "Balcony from another angle",
+            "Kitchen cabinets and countertop",
+            "Kitchen, boiler and balcony door",
+            "Bathroom and shower",
+            "Hallway overview",
+            "Entrance and hall",
+            "Apartment entrance door",
+            "Washbasin area",
+            "Separate toilet"
+      ]
+},
     features: ['southEastFacing', 'renovated', 'exteriorInsulation', 'newRoof', 'naturalGas'],
     featured: true,
     createdAt: '2026-10-21',

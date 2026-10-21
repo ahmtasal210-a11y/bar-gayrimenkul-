@@ -1,0 +1,127 @@
+{
+  "sourceArchive": "HAMİDEİYE MAHALLESİNDE 2+1 DAİRE.rar",
+  "count": 15,
+  "originalImagesUnmodified": true,
+  "photos": [
+    {
+      "position": 1,
+      "originalArchiveFilename": "photo_5863973223974768663_x.jpg",
+      "path": "/images/listings/hamidiye-2plus1/01-salon.jpg",
+      "captionTR": "Aydınlık salon",
+      "captionEN": "Bright living room",
+      "sha256": "9b124d4f36d7f5910ff3b2bb899d9ede983b0329d80f94e5638760dcee5412f4"
+    },
+    {
+      "position": 2,
+      "originalArchiveFilename": "photo_5863973223974768674_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/02-mutfak-genel.jpg",
+      "captionTR": "Mutfak genel görünümü",
+      "captionEN": "Kitchen overview",
+      "sha256": "6ba22d90dd86148e31b045b96568d752e0357606de423d409838704af32e6f3f"
+    },
+    {
+      "position": 3,
+      "originalArchiveFilename": "photo_5863973223974768672_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/03-balkon-cevre.jpg",
+      "captionTR": "Balkon ve çevre görünümü",
+      "captionEN": "Balcony and surroundings",
+      "sha256": "ebcc8a3c51d14c04e03d6ea7cad7cca1f72ee6e052e8b1427744da3fbac9a79e"
+    },
+    {
+      "position": 4,
+      "originalArchiveFilename": "photo_5863973223974768669_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/04-oda-genel.jpg",
+      "captionTR": "Oda genel görünümü",
+      "captionEN": "Room overview",
+      "sha256": "61de9a7fd1f325a8faa54059c09c8b031fe5d6c53007bad1cd2d763a7c4ec7f2"
+    },
+    {
+      "position": 5,
+      "originalArchiveFilename": "photo_5863973223974768671_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/05-oda-pencere.jpg",
+      "captionTR": "Pencereli oda görünümü",
+      "captionEN": "Room with window",
+      "sha256": "c3f625ab55acd28eefe0010b7f49866c3c1da88cfbf659cc048ac2e3a06275f6"
+    },
+    {
+      "position": 6,
+      "originalArchiveFilename": "photo_5863973223974768664_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/06-oda-farkli-aci.jpg",
+      "captionTR": "Oda görünümü, farklı açı",
+      "captionEN": "Room from another angle",
+      "sha256": "60bb25ce5f6dcd95e812eae5dea21b2ff97464d640a9cba7075817d56f7b265a"
+    },
+    {
+      "position": 7,
+      "originalArchiveFilename": "photo_5863973223974768666_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/07-balkon-diger-aci.jpg",
+      "captionTR": "Balkon, diğer açı",
+      "captionEN": "Balcony from another angle",
+      "sha256": "88b51fbdba9ea12f963d35464dd289959fce693d1b66765886fa61bb688479d1"
+    },
+    {
+      "position": 8,
+      "originalArchiveFilename": "photo_5863973223974768676_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/08-mutfak-detay.jpg",
+      "captionTR": "Mutfak dolapları ve tezgâh",
+      "captionEN": "Kitchen cabinets and countertop",
+      "sha256": "fcb9e9d29fac764e108a3efe27699efa135eeae65f26a020bfbd9bcef228919e"
+    },
+    {
+      "position": 9,
+      "originalArchiveFilename": "photo_5863973223974768670_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/09-mutfak-kombi.jpg",
+      "captionTR": "Mutfak, kombi ve balkon kapısı",
+      "captionEN": "Kitchen, boiler and balcony door",
+      "sha256": "5d3780c0019942617c378828ea04e17b5e0910804e346bef814881c0f751e2cc"
+    },
+    {
+      "position": 10,
+      "originalArchiveFilename": "photo_5863973223974768665_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/10-banyo.jpg",
+      "captionTR": "Banyo ve duş alanı",
+      "captionEN": "Bathroom and shower",
+      "sha256": "893c3a18143d91db0ec60e5f819cc2213669fc34859539f050849007b4092801"
+    },
+    {
+      "position": 11,
+      "originalArchiveFilename": "photo_5863973223974768668_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/11-koridor.jpg",
+      "captionTR": "Koridor genel görünümü",
+      "captionEN": "Hallway overview",
+      "sha256": "329eec6c22a41e01a3524bcf2f1a5d5044aee86d946ffa45d8e73b3842dbbd45"
+    },
+    {
+      "position": 12,
+      "originalArchiveFilename": "photo_5863973223974768677_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/12-antre.jpg",
+      "captionTR": "Giriş ve antre",
+      "captionEN": "Entrance and hall",
+      "sha256": "2dc4f86d0f0c93622a7a5d0d324aab6f339c989918270268fa0073f9f8c05c6a"
+    },
+    {
+      "position": 13,
+      "originalArchiveFilename": "photo_5863973223974768675_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/13-giris-kapisi.jpg",
+      "captionTR": "Daire giriş kapısı",
+      "captionEN": "Apartment entrance door",
+      "sha256": "1368ac4c43a171eca2f28b6671e7d667545cc9c43c3dc24b8d7eeaaf8b805719"
+    },
+    {
+      "position": 14,
+      "originalArchiveFilename": "photo_5863973223974768673_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/14-lavabo.jpg",
+      "captionTR": "Lavabo alanı",
+      "captionEN": "Washbasin area",
+      "sha256": "891a052380bd9feb6d622f263853740ec33302f8997215257756acb5c5bd12dc"
+    },
+    {
+      "position": 15,
+      "originalArchiveFilename": "photo_5863973223974768667_y.jpg",
+      "path": "/images/listings/hamidiye-2plus1/15-wc.jpg",
+      "captionTR": "Ayrı WC",
+      "captionEN": "Separate toilet",
+      "sha256": "75e53c3091f291d19d2504dfc4af0a8696c1a9ad62ed5b3f83c92449cdbc4e26"
+    }
+  ]
+}

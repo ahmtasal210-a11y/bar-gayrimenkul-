@@ -35,6 +35,7 @@ export interface Listing {
   buildingAge?: number;
   floor?: string; // örn. "4 / 8"
   images: string[]; // public/ kök yoluna göre, örn. "/images/listings/listing-01.webp"
+  imageCaptions?: { tr: string[]; en: string[] };
   features: string[]; // çeviri anahtarları (messages -> listingFeatures.*)
   featured: boolean;
   /** Fırsat Yerler bölümünde gösterilecek, doğrulanmış fırsat ilanı. */

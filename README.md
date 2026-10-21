@@ -47,7 +47,7 @@ Ahmet Asal, ana sayfa ve Hakkımızda sayfasında “Gayrimenkul Danışmanı”
 
 ## İlan ve içerik yönetimi
 
-Hamidiye Mahallesi’ndeki 105 m² net, 2+1 ve 2.490.000 TL fiyatlı daire aktif ilan listesinde ve ana sayfanın Öne Çıkanlar bölümündedir. Verilmeyen banyo sayısı ve bina yaşı gösterilmez. Özgün fotoğraf dosyaları beklenirken görsel alanında “Bu ilanın fotoğrafları henüz eklenmedi” yazısı görünür. Önceki markanın örnek ilanları, müşteri yorumları ve başarı sayaçları kullanılmaz.
+Hamidiye Mahallesi’ndeki 105 m² net, 2+1 ve 2.490.000 TL fiyatlı daire aktif ilan listesinde ve ana sayfanın Öne Çıkanlar bölümündedir. Verilmeyen banyo sayısı ve bina yaşı gösterilmez. İlanın 15 özgün fotoğrafı RAR arşivinden alınarak salon → mutfak → balkon → odalar → detaylar sırasıyla galeriye ve kapak görseline bağlandı. Kaynak isimleri ve dosya bütünlük kayıtları docs/ilanlar/hamidiye-fotograf-sirasi.json dosyasındadır. Önceki markanın örnek ilanları, müşteri yorumları ve başarı sayaçları kullanılmaz.
 
 Doğrulanmış ilanları Listing tipine uygun ekleyin; gerçek fiyat, konum ve kullanım hakkınız bulunan fotoğrafları kullanın. Konum biçimi: { city: 'Karaman', district: 'Merkez', neighborhood: 'Abbas Mahallesi' }. Mahalle adını listedeki biçimiyle yazın. Galeri için en az bir görsel ekleyin. İlanlar eklenince kartlar, detay sayfaları ve sitemap yeniden derleme sırasında oluşur.
 

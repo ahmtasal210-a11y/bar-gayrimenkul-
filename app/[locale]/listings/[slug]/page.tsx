@@ -170,7 +170,7 @@ export default async function ListingDetailPage({
       <Container className="mt-10 grid gap-10 pb-20 lg:grid-cols-3 lg:gap-12">
         {/* Sol kolon */}
         <div className="space-y-12 lg:col-span-2">
-          <ListingGallery images={listing.images} alt={listing.title[locale]} />
+          <ListingGallery images={listing.images} captions={listing.imageCaptions?.[locale]} alt={listing.title[locale]} />
 
           {/* Genel bilgiler */}
           <section>

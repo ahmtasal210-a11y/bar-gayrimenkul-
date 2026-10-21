@@ -271,7 +271,12 @@
     "whatsappMessage": "Hello, I'm interested in the listing {title} ({ref}). Could I get more details?",
     "relatedTitle": "Similar Listings",
     "priceOnRequest": "Call for price",
-    "photosPending": "Photos have not yet been added to this listing."
+    "photosPending": "Photos have not yet been added to this listing.",
+    "galleryOpen": "Open gallery",
+    "galleryClose": "Close",
+    "galleryPrevious": "Previous photo",
+    "galleryNext": "Next photo",
+    "galleryThumbnail": "Photo {number}"
   },
   "contact": {
     "hero": {
