@@ -1,0 +1,103 @@
+{
+  "status": "awaiting_original_photo_files",
+  "reference": "BRS-001",
+  "title": "Hamidiye’de 105 m² Net, Komple Yapılı 2+1 | Güney-Doğu Cephe",
+  "priceTRY": 2490000,
+  "transaction": "sale",
+  "propertyType": "apartment",
+  "location": {
+    "city": "Karaman",
+    "district": "Merkez",
+    "neighborhood": "Hamidiye Mahallesi"
+  },
+  "rooms": "2+1",
+  "netAreaM2": 105,
+  "floor": 4,
+  "buildingFloors": 4,
+  "features": [
+    "southEastFacing",
+    "renovated",
+    "exteriorInsulation",
+    "newRoof",
+    "naturalGas"
+  ],
+  "photoOrder": [
+    {
+      "position": 1,
+      "originalMessageImageNumber": 1,
+      "suggestedFilename": "hamidiye-01-salon",
+      "captionTR": "Aydınlık salon; kapak görseli"
+    },
+    {
+      "position": 2,
+      "originalMessageImageNumber": 10,
+      "suggestedFilename": "hamidiye-02-mutfak-genel",
+      "captionTR": "Mutfak genel görünümü"
+    },
+    {
+      "position": 3,
+      "originalMessageImageNumber": 4,
+      "suggestedFilename": "hamidiye-03-balkon",
+      "captionTR": "Balkon ve çevre görünümü"
+    },
+    {
+      "position": 4,
+      "originalMessageImageNumber": 7,
+      "suggestedFilename": "hamidiye-04-oda-genel",
+      "captionTR": "Oda genel görünümü"
+    },
+    {
+      "position": 5,
+      "originalMessageImageNumber": 2,
+      "suggestedFilename": "hamidiye-05-oda-diger-aci",
+      "captionTR": "Oda görünümü; farklı açı"
+    },
+    {
+      "position": 6,
+      "originalMessageImageNumber": 8,
+      "suggestedFilename": "hamidiye-06-mutfak-diger-aci",
+      "captionTR": "Mutfak, kombi ve balkon kapısı"
+    },
+    {
+      "position": 7,
+      "originalMessageImageNumber": 3,
+      "suggestedFilename": "hamidiye-07-banyo",
+      "captionTR": "Banyo ve duş alanı"
+    },
+    {
+      "position": 8,
+      "originalMessageImageNumber": 6,
+      "suggestedFilename": "hamidiye-08-koridor",
+      "captionTR": "Koridor genel görünümü"
+    },
+    {
+      "position": 9,
+      "originalMessageImageNumber": 11,
+      "suggestedFilename": "hamidiye-09-antre",
+      "captionTR": "Giriş ve antre"
+    },
+    {
+      "position": 10,
+      "originalMessageImageNumber": 9,
+      "suggestedFilename": "hamidiye-10-lavabo",
+      "captionTR": "Lavabo alanı"
+    },
+    {
+      "position": 11,
+      "originalMessageImageNumber": 5,
+      "suggestedFilename": "hamidiye-11-wc",
+      "captionTR": "Ayrı WC"
+    }
+  ],
+  "unconfirmed": [
+    "elevator",
+    "buildingAge",
+    "bathroomCount",
+    "deed",
+    "mortgageEligibility",
+    "monthlyDues",
+    "occupancy",
+    "exactAddress"
+  ],
+  "notes": "Draft only. Not imported into the active site listings. Use original property photographs, not generated reconstructions."
+}
